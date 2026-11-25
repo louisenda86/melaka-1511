@@ -52,3 +52,15 @@ Keys can be rebound in **Tetapan → Kawalan**.
   The modern weapons are fictional, original designs and copy no real product.
 - History sources are cited entry by entry in the in-game Kodeks, which marks each item as
   sourced history, plausible reconstruction or fiction.
+
+## Godot build (Phase 1)
+
+A second build of the game, made in Godot 4.7 as a third-person action RPG, lives under
+[`godot/`](https://louisenda86.github.io/melaka-1511/godot/). It holds the first phase only: one
+playable character in the mountain rainforest, a third-person camera, sprinting with stamina and
+target lock-on with strafing. There is no combat yet.
+
+Controls: WASD move, mouse look (click the page first), Shift sprint, Ctrl walk, Tab or F lock on,
+Q / E switch target, Esc release the mouse. A gamepad works too.
+
+It runs on Godot's WebGL 2 renderer and needs a desktop browser.
